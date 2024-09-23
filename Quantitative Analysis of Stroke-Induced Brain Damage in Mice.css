@@ -1,5 +1,9 @@
 body {
     margin: 0;
-    background: white;
+    background-color: #D2E0FB;
     text-align: center;
+}
+
+#Introduction & Background {
+    width: 300px;
 }
