@@ -1,10 +1,31 @@
 body {
     margin: 0;
-    background-color: #D2E0FB;
+    background-color: #B7E0FF;
     text-align: center;
 }
 
-#Introduction & Background {
-    width: 100px;
+#IntroductionBackground {
+    width: 800px;
     text-decoration: antiquewhite;
+    background-color: #FFF5CD;
+}
+
+#Methods {
+    width: 800px;
+    background-color: #FFF5CD;
+}
+
+#Results {
+    width: 1600px;
+    background-color: #FFCFB3;
+}
+
+#DiscussionsConclusions {
+    width: 500px;
+    background-color: #E78F81;
+}
+
+#Further {
+    width: 300px;
+    background-color: #FFBE98;
 }
