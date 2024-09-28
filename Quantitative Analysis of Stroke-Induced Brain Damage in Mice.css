@@ -2,30 +2,38 @@ body {
     margin: 0;
     background-color: #B7E0FF;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#IntroductionBackground {
-    width: 800px;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.IntroductionBackground, .Methods {
+    width: 80%;
     text-decoration: antiquewhite;
     background-color: #FFF5CD;
+    margin: 10px 0;
 }
 
-#Methods {
-    width: 800px;
-    background-color: #FFF5CD;
-}
 
 #Results {
-    width: 1600px;
+    width: 100%;
     background-color: #FFCFB3;
 }
 
+#Figures {
+    width: 50%;
+    background-color: #FFFBE6;
+}
+
 #DiscussionsConclusions {
-    width: 500px;
+    width: 50%;
     background-color: #E78F81;
 }
 
 #Further {
-    width: 300px;
+    width: 50%;
     background-color: #FFBE98;
 }
